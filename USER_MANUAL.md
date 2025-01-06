@@ -1,6 +1,6 @@
 # User Manual
 
-##Core values and believes
+## Core values and believes
 
 - My family is my priority.
 - Pragmatism.
