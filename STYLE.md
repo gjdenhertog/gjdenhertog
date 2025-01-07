@@ -9,7 +9,9 @@ TODO
 
 ## Technical Debt
 
-TODO
+> "Weeks of debugging can save hours of design." - Unknown
+
+Solving a problem in design or implementation has less impact than solving it in production. I do not take on technical debt, I try to do it right the first time. I rather ship something that I can rely on with less features, than rush features and deal with problems in production at an ungodly hour.
 
 ## Safety
 
@@ -21,8 +23,8 @@ TODO
 
 ## Developer Experience
 
-> “There are only two hard things in Computer Science: cache invalidation, naming things, and
-> off-by-one errors.” — Phil Karlton
+> "There are only two hard things in Computer Science: cache invalidation, naming things, and
+> off-by-one errors." — Phil Karlton
 
 ### Naming Things
 
