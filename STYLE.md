@@ -1,7 +1,7 @@
 # Style
 
 I constantly learn and therefore gain new insights. I have a specific coding style which is adapted constantly with every new insight that I gain. This document captures the current rules I consider to be my style.
-A lot of this is also inspired by books, blog posts and podcasts I consume. The biggest influence on my current status stems from the [Tiger Style](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md).
+A lot of this is also inspired by books, blog posts and podcasts I consume. The biggest influence on my current status stems from the [Tiger Style](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md). Some of these rules are specific to my language of choice: [Rust](https://www.rust-lang.org).
 
 ## Simplicity & Elegance
 
@@ -38,9 +38,12 @@ TODO
 
 TODO
 
-### Hard numbers
+### Configurations
 
-TODO
+- Run `cargo fmt`.
+- Use 4 spaces of indentation, rather than 2 spaces or tabs, as that is more obvious and leads to less nested code.
+- Hard limit all line lengths, without exception, to at most 100 characters. Use it up but never go beyond.
+- Add braces to `if` statements.
 
 ### Dependencies
 
