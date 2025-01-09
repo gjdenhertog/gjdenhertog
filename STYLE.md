@@ -51,4 +51,4 @@ My goal is to have as few dependencies as possible, preferrably none. Dependenci
 
 ### Tooling
 
-TODO
+Tools have costs. A small standardized toolbox is simpler to operate than an array of specialized instruments each with a dedicated manual. My primary tool is Rust. It may not be the best for everything, but it's good enough for most things. Tools created in Rust makes them cross-platform and portable with type safetey included.
