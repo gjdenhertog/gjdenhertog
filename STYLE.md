@@ -47,7 +47,7 @@ TODO
 
 ### Dependencies
 
-TODO
+My goal is to have as few dependencies as possible, preferrably none. Dependencies lead to supply chain attacks, safety and performance risks and slow install times.
 
 ### Tooling
 
