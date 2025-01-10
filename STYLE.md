@@ -28,7 +28,16 @@ TODO
 
 ### Naming Things
 
-TODO
+- Get the nouns and verbs just right. Great names are the essence of great code, they capture what a thing is or does, and provide a crisp, intuitive mental model. They show that you understand the domain. Take time to find the perfect name, to find nouns and verbs that work together, so that the whole is greater than the sum of its parts.
+- Use `snake_case` for function, variable, and file names. It helps separate words and encourages descriptive names.
+- Do not abbreviate variable names.
+- Add units or qualifiers to variable names, and put them last, sorted by descending significance, so that the variable starts with the most significant word, and ends with the least significant word.
+- Try to choose realted names of the same length so that related variables all line up in the source. This makes the code symmetrical with clean blocks that are easier for the eye to parse and for the reader to check.
+- Put important things near the top of a file, order matters.
+- Think of how names will be used outside the code, in documentation or communication.
+- Write descriptive commit messages that inform the reader.
+- Code alone is not documentation, use comments to explain why you wrote the code the way you did.
+- Comments are sentences, with a space after the slash, with capital letter and a full stop, or a colon if they relate to something that follows.
 
 ### Cache Invalidation
 
