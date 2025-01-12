@@ -41,7 +41,11 @@ TODO
 
 ### Cache Invalidation
 
-TODO
+- Do not duplicate variables or take aliases to them. This will reduce the probability that state gets out of sync.
+- Shrink the scipe to minimize the number of variables at play and reduce the probability that the wrong variable is used.
+- Calculate or check variables to where/when they are used. Do not introduce variables before they are needed. Don't leave them around where they are not. Most bugs come down to a semantic gap, caused by a gap in time or space, because it's harder to check code that is not contained along those dimensions.
+- Use simple function signatures and return types to reduce dimensionality at the call site, the number of branches that need to be handled at the call site, because this dimensionality can also be viral, propagating through the call chain.
+- Ensure that functions run to completion without suspending, so that precondition assertiongs are true throughout the lifetime of the function. These assertions are useful documentation without a suspend, but may be misleading otherwise.
 
 ### Off-By-One Errors
 
