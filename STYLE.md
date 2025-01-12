@@ -65,3 +65,7 @@ My goal is to have as few dependencies as possible, preferrably none. Dependenci
 ### Tooling
 
 Tools have costs. A small standardized toolbox is simpler to operate than an array of specialized instruments each with a dedicated manual. My primary tool is Rust. It may not be the best for everything, but it's good enough for most things. Tools created in Rust makes them cross-platform and portable with type safetey included.
+
+### Developer's Journal
+
+A developer's journal is a powerful tool for organizing thoughts, reducing ambiguity, and fostering growth. By documenting goals, challenges, and solutions before, during, and after coding sessions, developers can focus more effectively, avoid distractions, and learn from their experiences. The journal serves as a private space to articulate problems, track progress, and reflect on successes and struggles, ultimately promoting mindfulness and better decision-making. Regular journaling also aids in retrospectives, performance reviews, and sharing insights with the team, making it a valuable habit for personal and professional development. Read all about it [here](https://stackoverflow.blog/2024/12/24/you-should-keep-a-developer-s-journal/).
