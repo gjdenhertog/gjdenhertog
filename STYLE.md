@@ -49,7 +49,7 @@ TODO
 
 ### Off-By-One Errors
 
-TODO
+- The usual suspects for off-by-one errors are casual interactions between `index`, a `count` or a `size`. These are all primitive integer types, but should be seen as distinct types, with clear rules to cast between them. To go from `index` to a `count` you need to add one, since indexes are 0-based but counts are 1-based. To go from a `count` to a `size` you need to multiply by the unit.
 
 ### Configurations
 
