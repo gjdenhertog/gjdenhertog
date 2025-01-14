@@ -19,7 +19,10 @@ TODO
 
 ## Performance
 
-TODO
+- Think about performance from the beginning. The best time to solve performance is in the deisng phase, when we can not measure or profile. It is typically harder to fix a system after implementation and profiling, and the gains are less.
+- Understand how your application uses memory.
+- Profile before optimizing and establish a baseline.
+- Optimize for the slowest resources first (network, disk, memory, CPU) in that order, after compensating for the frequency of usage, because faster resources may be used many times more.
 
 ## Developer Experience
 
