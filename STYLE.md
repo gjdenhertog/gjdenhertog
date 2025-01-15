@@ -23,6 +23,7 @@ TODO
 - Understand how your application uses memory.
 - Profile before optimizing and establish a baseline.
 - Optimize for the slowest resources first (network, disk, memory, CPU) in that order, after compensating for the frequency of usage, because faster resources may be used many times more.
+- Use the minimum amount of carbon by making your software as efficient as possible and optimize to run on renewable power.
 
 ## Developer Experience
 
