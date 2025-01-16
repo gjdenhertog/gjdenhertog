@@ -5,11 +5,11 @@ A lot of this is also inspired by books, blog posts and podcasts I consume. The 
 
 ## Simplicity & Elegance
 
-TODO
-
-## Technical Debt
+Simplicity is bringing design goals together, how you can identify the "super idea" that solves the axes simultaneously, to achieve something elegant. Simplicity is not the first attempt but the hardest revision. The hardest part is how much thought goes into everything. Spend this energy upfront, proactively rather than reactivly, because when thinking is done, what is spent on the design will be dwarfed by the implementation and testing, and then again by the costs of operation and maintenance.
 
 > "Weeks of debugging can save hours of design." - Unknown
+
+## Technical Debt
 
 Solving a problem in design or implementation has less impact than solving it in production. I do not take on technical debt, I try to do it right the first time. I rather ship something that I can rely on with less features, than rush features and deal with problems in production at an ungodly hour.
 
