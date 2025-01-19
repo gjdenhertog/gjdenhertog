@@ -239,6 +239,13 @@ Beyond these rules:
 My goal is to have as few dependencies as possible, preferrably none. Dependencies lead to supply
 chain attacks, safety and performance risks and slow install times.
 
+### APIs
+
+Only use versioning if absolutely necessary, try to resolve changes through evolution. Once an API
+has been published, any externally observable behavior of the API cannot be changed without breaking
+clients. Compatible changes can be implemented with an in-place update, the client does not break
+and no new version needs to be created.
+
 ### Tooling
 
 Tools have costs. A small standardized toolbox is simpler to operate than an array of specialized
