@@ -5,7 +5,7 @@ constantly with every new insight that I gain. This document captures the curren
 to be my style. A lot of this is also inspired by books, blog posts and podcasts I consume. The
 biggest influence on my current status stems from the
 [Tiger Style](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md). Some of
-these rules are specific to my language of choice: [Rust](https://www.rust-lang.org).
+these rules are specific to my current language of choice: [Rust](https://www.rust-lang.org).
 
 ## Simplicity & Elegance
 
