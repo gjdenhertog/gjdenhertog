@@ -35,3 +35,4 @@
 - A problem well stated is half solved. - Charles Kettering
 - If you can’t measure it you can’t improve it. - Peter Drucker
 - Weeks of debugging can save hours of design. - Unknown
+- The source code is also the ONLY document in whatever collection you may have that is guaranteed to reflect reality exactly. As such, it is the only design document that is known to be true. The thoughts, dreams, and fantasies of the designer are only real insofar as they are in the code. - Ron Jeffries
