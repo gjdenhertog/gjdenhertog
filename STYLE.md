@@ -191,7 +191,7 @@ Beyond these rules:
 - Add units or qualifiers to variable names, and put them last, sorted by descending significance,
   so that the variable starts with the most significant word, and ends with the least significant
   word.
-- Try to choose realted names of the same length so that related variables all line up in the
+- Try to choose related names of the same length so that related variables all line up in the
   source. This makes the code symmetrical with clean blocks that are easier for the eye to parse and
   for the reader to check.
 - Put important things near the top of a file, order matters.
