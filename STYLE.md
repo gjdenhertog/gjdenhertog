@@ -205,7 +205,7 @@ Beyond these rules:
 
 - Do not duplicate variables or take aliases to them. This will reduce the probability that state
   gets out of sync.
-- Shrink the scipe to minimize the number of variables at play and reduce the probability that the
+- Shrink the scope to minimize the number of variables at play and reduce the probability that the
   wrong variable is used.
 - Calculate or check variables to where/when they are used. Do not introduce variables before they
   are needed. Don't leave them around where they are not. Most bugs come down to a semantic gap,
